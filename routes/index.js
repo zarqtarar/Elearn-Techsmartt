@@ -11,6 +11,7 @@ router.get('/login', forwardAuthenticated, (req, res) => res.render('login'));
 router.get('/register', forwardAuthenticated, (req, res) => res.render('register'));
 
 
+
 //for contact page
 router.get('/contact', forwardAuthenticated, (req, res) => res.render('contact'));
 // Dashboard
